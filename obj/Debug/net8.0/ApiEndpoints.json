@@ -1,0 +1,97 @@
+[
+  {
+    "ContainingType": "ApiNET.Controllers.LibroController",
+    "Method": "GetLibros",
+    "RelativePath": "api/Libro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiNET.Controllers.LibroController",
+    "Method": "AddLibro",
+    "RelativePath": "api/Libro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nuevoLibro",
+        "Type": "ApiNET.Models.Libro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiNET.Controllers.LibroController",
+    "Method": "UpdateLibro",
+    "RelativePath": "api/Libro/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "libroActualizado",
+        "Type": "ApiNET.Models.Libro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiNET.Controllers.LibroController",
+    "Method": "DeleteLibro",
+    "RelativePath": "api/Libro/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiNET.Controllers.LibroController",
+    "Method": "GetLibrosPorAutor",
+    "RelativePath": "api/Libro/buscarPorAutor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "autor",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiNET.Controllers.LibroController",
+    "Method": "GetLibrosPorTitulo",
+    "RelativePath": "api/Libro/buscarPorTitulo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "titulo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
